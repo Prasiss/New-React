@@ -1,4 +1,4 @@
-import photo from './assets/pushpa 2.jpg';
+
 function Card(){
     return (
         <div className="card">

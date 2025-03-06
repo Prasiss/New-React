@@ -5,7 +5,6 @@ function App() {
   return (
     <main>
          <Header/>
-         <Card />
          <Footer/>
     </main>
   );

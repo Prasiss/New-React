@@ -1,7 +1,6 @@
 function Header(){
     return (
         <header>
-            <h1> My Personal Website</h1>
             <nav>
                 <ul>
                     <li><a href="" className="link" id="Home">Home </a></li>
