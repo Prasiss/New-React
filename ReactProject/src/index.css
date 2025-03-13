@@ -31,3 +31,9 @@ ul{
 .link:hover{
   color: rgb(212, 58, 15);
 }
+
+.logo img{
+  height:  5vh;
+  width:  5vh;
+
+}
