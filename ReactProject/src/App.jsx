@@ -1,11 +1,16 @@
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
-import Card from './card.jsx';
+import Button from './button.jsx';
+
 function App() {
+  
   return (
+    
     <main>
-         <Header/>
-         <Footer/>
+        <Header/>
+        <Footer/> 
+        <Button/>
+      
     </main>
   );
 
