@@ -41,6 +41,17 @@ ul{
   width:  5vh;
 
 }
+.about-section{
+  display: flex;
+
+}
+.profile-pic{
+  flex: 80%;
+}
+.description{
+  flex:20%
+  
+}
 .Portfolio{
   display: flex;
   justify-content: space-around;
