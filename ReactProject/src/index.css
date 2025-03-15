@@ -3,6 +3,10 @@
   color: white;
   background-color: rgb(7, 7, 7);
 }
+main{
+  padding-left:1vh;
+  padding-right:1vh;
+}
 button{
   color: white;
   background-color: blue;
@@ -37,3 +41,63 @@ ul{
   width:  5vh;
 
 }
+.Portfolio{
+  display: flex;
+  justify-content: space-around;
+}
+.web-protfolio{
+  margin: 2rem;
+  width: 50vh;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 50, 22, 0.8);
+  max-width: 60rem;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Contact-Me {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(1, 64, 28, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-me input,
+.contact-me textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-me textarea {
+  resize: none;
+  height: 80px;
+}
+
+.contact-me button {
+  
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-me button:hover {
+  background-color: #0056b3;
+}
+
+

@@ -1,5 +1,5 @@
 function Portfolio(){
-    const weather='';
+    const weather='./src/assets/linkedin.png';
     return (
         <div className="Portfolio">
             <div className="web-protfolio">
@@ -10,11 +10,13 @@ function Portfolio(){
             <div className="web-protfolio">
                 <h1 className="title">Weather App</h1>
                 <img src={weather} alt="Task-Manager Preview"></img>
-                <p className="Description"></p>
+                <p className="Description">
+                    
+                </p>
 
             </div>
             
         </div>
     );
 }
-export default Portfolio()
+export default Portfolio
