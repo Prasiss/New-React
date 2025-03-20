@@ -3,6 +3,7 @@ function Footer(){
     const github='./src/assets/github.png';
     const gmail='./src/assets/gmail.jpg';
     const insta='./src/assets/insta.png';
+    const linkk='https://www.instagram.com/assassin_e96/';
 
     
     return (
