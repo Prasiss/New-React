@@ -13,7 +13,7 @@ function App() {
         <Header/>
         <ProfilePic/>
         <Portfolio/>
-        <ContactMe/>
+        {/* <ContactMe/> */}
         <Footer/> 
         
     </main>

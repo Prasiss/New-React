@@ -1,9 +1,9 @@
 function ProfilePic(){
-    const Picture='';
+    const Picture='./src/assets/ProfilePic.png';
     return(
         <div className="about-section">
             <div className="profile-pic">
-                <img src={Picture}></img>
+                <img src={Picture} alt="Profile-Picture" />
             </div>
             <div className="descprition">
                 <h1>Prasim Basnet</h1>
