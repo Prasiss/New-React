@@ -9,8 +9,8 @@ function Counter(){
     const decrementCount= () => {
         setAge(count-1);
     }
-    const incCount= () => {
-        setAge(count+1);
+    const resetCount= () => {
+        setAge(count=0);
     }
     
 }
