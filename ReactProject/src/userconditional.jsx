@@ -1,8 +1,8 @@
-function Userconditional(){
+// function Userconditional(){
 
-    return (props.isLoggedIn ? <h2> Welcome {props.username}</h2> :
-                                <h2>Please log in</h2>
-    )
+//     return (props.isLoggedIn ? <h2> Welcome {props.username}</h2> :
+//                                 <h2>Please log in</h2>
+//     )
         
-}
-export default Userconditional;
+// }
+// export default Userconditional;

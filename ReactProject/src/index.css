@@ -42,6 +42,7 @@ ul{
 
 }
 .about-section{
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,6 +68,11 @@ ul{
 .description{
   flex:20%;
 
+}
+.titleName{
+  text-align: center;
+  font-size: 2rem;
+  color: green;
 }
 .Portfolio{
   display: flex;
