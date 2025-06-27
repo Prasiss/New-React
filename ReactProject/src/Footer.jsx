@@ -1,18 +1,24 @@
-function Footer(){
-    const linkedin='./src/assets/linkedin.png';
-    const github='./src/assets/github.png';
-    const gmail='./src/assets/gmail.jpg';
-    const insta='./src/assets/insta.png';
-    const linkk='https://www.instagram.com/assassin_e96/';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; 
+
+function Footer(){
+    
     
     return (
         <div className="footer">
             <div className="logo">
-                <img src={linkedin}></img>
-                <img src={github}></img>
-                <img src={gmail}></img>
-                <img src={insta}></img>
+                <a href="https://www.linkedin.com/" target="_blank" >
+                    <FontAwesomeIcon icon={faLinkedin} className="icon"/>
+                </a>
+                <a href ="https://www.github.com/">
+                <FontAwesomeIcon icon={faGithub} className="icon"/>
+                </a>
+                <a href ="https://www.gmail.com/"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                </a>
+                <a href ="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} className="icon"/>
+                </a>
             </div>
             <footer>
                 <p>&copy; {new Date().getFullYear()} <span>Prasim Basnet</span></p>
