@@ -9,15 +9,15 @@ function Footer(){
     return (
         <div className="footer">
             <div className="logo">
-                <a href="https://www.linkedin.com/" target="_blank" >
+                <a href="https://www.linkedin.com/in/prasimbasnet096/" target="_blank" >
                     <FontAwesomeIcon icon={faLinkedin} className="icon"/>
                 </a>
-                <a href ="https://www.github.com/">
+                <a href ="https://www.github.com/Prasiss">
                 <FontAwesomeIcon icon={faGithub} className="icon"/>
                 </a>
-                <a href ="https://www.gmail.com/"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                <a href ="https://mail.google.com/mail"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
                 </a>
-                <a href ="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} className="icon"/>
+                <a href ="https://www.instagram.com/assassin_e96/"><FontAwesomeIcon icon={faInstagram} className="icon"/>
                 </a>
             </div>
             <footer>
