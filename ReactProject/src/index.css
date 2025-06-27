@@ -87,6 +87,7 @@ ul{
   box-shadow: 0 4px 8px rgba(0, 50, 22, 0.8);
   max-width: 60rem;
 }
+
 .web-protfolio a{
   text-decoration: none;
   color: white;
@@ -95,8 +96,10 @@ ul{
   align-items: center;
   justify-content: center;
 }
+
 .web-protfolio a:hover{
   color: rgb(3, 61, 2);
+  
 }
 
 .contact-container {
@@ -160,4 +163,62 @@ ul{
   box-shadow: 0 4px 8px rgba(1, 64, 28, 1);
   
 }
+.skills-section{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+}
 
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.skill-card {
+    background: #000000;
+    border-radius: 14px;
+    padding: 28px 0 18px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.skill-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 4px 8px rgba(1, 64, 28, 1);
+}
+
+.skill-icon {
+    font-size: 2.8rem;
+    margin-bottom: 12px;
+}
+.skill-icon.python { color: #b9bc0c; }
+.skill-icon.java { color: #007396; }
+.skill-icon.sql { color: #00618a; }
+.skill-icon.html { color: #e44d26; }
+.skill-icon.js { color: #f7df1e; }
+.skill-icon.react { color: #61dafb; }
+.skill-icon.css { color: #1572b6; }
+.skill-icon.node { color: #3c873a; }
+
+.skill-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.skill-level {
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin-top: 4px;
+}
