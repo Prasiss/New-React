@@ -1,7 +1,7 @@
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
+import Skills from './Skills.jsx';
 
-import ContactMe from './Contactme.jsx';
 import Portfolio from './Portfolio.jsx';
 import ProfilePic from './ProfilePic.jsx';
 
@@ -13,7 +13,7 @@ function App() {
         <Header/>
         <ProfilePic/>
         <Portfolio/>
-        {/* <ContactMe/> */}
+        <Skills/>
         <Footer/> 
         
     </main>
