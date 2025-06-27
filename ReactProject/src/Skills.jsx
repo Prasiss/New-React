@@ -29,7 +29,6 @@ function Skills() {
           <div key={index} className="skill-card">
             {skill.icon}
             <span className="skill-name">{skill.name}</span>
-            <br />
             <span className="skill-level">{skill.level}</span>
           </div>
         ))}

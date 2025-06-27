@@ -12,12 +12,12 @@ function Footer(){
                 <a href="https://www.linkedin.com/in/prasimbasnet096/" target="_blank" >
                     <FontAwesomeIcon icon={faLinkedin} className="icon"/>
                 </a>
-                <a href ="https://www.github.com/Prasiss">
+                <a href ="https://www.github.com/Prasiss"  target="_blank">
                 <FontAwesomeIcon icon={faGithub} className="icon"/>
                 </a>
-                <a href ="https://mail.google.com/mail"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                <a href ="https://mail.google.com/mail" target="_blank"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
                 </a>
-                <a href ="https://www.instagram.com/assassin_e96/"><FontAwesomeIcon icon={faInstagram} className="icon"/>
+                <a href ="https://www.instagram.com/assassin_e96/"  target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon"/>
                 </a>
             </div>
             <footer>
