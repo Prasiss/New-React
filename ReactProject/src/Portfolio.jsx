@@ -1,6 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
-
+import {
+  SiPython,
+  SiFlask,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact
+} from "react-icons/si";
 function Portfolio(){
     const weather='./src/assets/linkedin.png';
     return (
@@ -15,6 +22,12 @@ function Portfolio(){
                             It is a full stack project with flask and also my Cs50x final Project. Its a websites which helps us to add different task
                             and dealine for it as well and updates it in realtime as well as adds the data into data base and helps to regain acess if we removed it.
                         </p>
+                        <p> Programming language used <hr></hr>                    
+                        <span className="lang"><SiPython /> Python</span>
+                        <span className="lang"><SiFlask /> Flask</span>
+                        <span className="lang"><SiHtml5 /> HTML</span>
+                        <span className="lang"><SiCss3 /> CSS</span>
+                        </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
                     <div className="web-protfolio">
@@ -22,6 +35,12 @@ function Portfolio(){
                         <img src={weather} alt="Task-Manager Preview"></img>
                         <p className="Description">
                             A website which uses APi to collect a data and display the real time information about a particular city at that particular time. It helps to know more about how API works in realtime and this project is indeed the one to know about it.
+                        </p>
+                        <p> Programming language used <hr></hr>                    
+                        <span className="lang"><SiPython /> Python</span>
+                        <span className="lang"><SiFlask /> Flask</span>
+                        <span className="lang"><SiHtml5 /> HTML</span>
+                        <span className="lang"><SiCss3 /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
@@ -35,6 +54,12 @@ function Portfolio(){
                             It is a full stack project with flask and also my Cs50x final Project. Its a websites which helps us to add different task
                             and dealine for it as well and updates it in realtime as well as adds the data into data base and helps to regain acess if we removed it.
                         </p>
+                        <p> Programming language used <hr></hr>                    
+                        <span className="lang"><SiPython /> Python</span>
+                        <span className="lang"><SiFlask /> Flask</span>
+                        <span className="lang"><SiHtml5 /> HTML</span>
+                        <span className="lang"><SiCss3 /> CSS</span>
+                        </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
                     <div className="web-protfolio">
@@ -42,6 +67,12 @@ function Portfolio(){
                         <img src={weather} alt="Task-Manager Preview"></img>
                         <p className="Description">
                             A website which uses APi to collect a data and display the real time information about a particular city at that particular time. It helps to know more about how API works in realtime and this project is indeed the one to know about it.
+                        </p>
+                        <p> Programming language used <hr></hr>                    
+                        <span className="lang"><SiPython /> Python</span>
+                        <span className="lang"><SiFlask /> Flask</span>
+                        <span className="lang"><SiHtml5 /> HTML</span>
+                        <span className="lang"><SiCss3 /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
