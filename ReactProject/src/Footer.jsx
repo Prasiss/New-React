@@ -1,23 +1,21 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; 
+import { SiGithub,SiInstagram,SiGmail,SiLinkedin } from 'react-icons/si';
 
 function Footer(){
-    
-    
+      
     return (
         <div className="footer">
             <div className="logo">
                 <a href="https://www.linkedin.com/in/prasimbasnet096/" target="_blank" >
-                    <FontAwesomeIcon icon={faLinkedin} className="icon"/>
+                    <SiLinkedin className="linkedin-icon" />
                 </a>
                 <a href ="https://www.github.com/Prasiss"  target="_blank">
-                <FontAwesomeIcon icon={faGithub} className="icon"/>
+                <SiGithub className="github-icon" />
                 </a>
-                <a href ="https://mail.google.com/mail" target="_blank"> <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                <a href ="https://mail.google.com/mail" target="_blank"> <SiGmail className="gmail-icon" />
                 </a>
-                <a href ="https://www.instagram.com/assassin_e96/"  target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon"/>
+                <a href ="https://www.instagram.com/assassin_e96/"  target="_blank"><SiInstagram className="instagram-icon" />
                 </a>
             </div>
             <footer>
