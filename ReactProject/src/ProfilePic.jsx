@@ -7,8 +7,10 @@ function ProfilePic(){
             </div>
             <div className="descprition">
                 <h1>Prasim Basnet</h1>
-                <h4>Learning Basics</h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia exercitationem quisquam blanditiis illo officiis sed dolores praesentium voluptatibus. Obcaecati quia eum quibusdam et porro itaque adipisci recusandae pariatur sequi.
+                <h4>I am a <span className="highlight">Web Developer</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quia exercitationem quisquam blanditiis illo officiis sed dolores praesentium voluptatibus. Obcaecati quia eum quibusdam et porro itaque adipisci recusandae pariatur sequi.
+                </p>
+                <button className="cv-button">Download CV</button>
 
             </div>
         </div>

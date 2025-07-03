@@ -101,6 +101,41 @@ ul{
   color: rgb(3, 61, 2);
   
 }
+.cv-button{
+  background-color: black;
+  color: white;
+  border: 1px solid green;
+
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.cv-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(1, 50, 7, 0.3);
+  
+}
+.lang-icon {
+  font-size: 1.5rem;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.lang-icon.python { color: #3776AB; }
+.lang-icon.flask { color: #800606; }
+.lang-icon.html { color: #e44d26; }
+.lang-icon.css { color: #1572b6; }
+
+.highlight {
+  color:green;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 2px 6px;
+  box-shadow: 0 0 8px 2px rgba(1, 50, 7, 0.1);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
 
 .contact-container {
   display: flex;

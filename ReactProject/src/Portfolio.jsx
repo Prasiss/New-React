@@ -23,10 +23,10 @@ function Portfolio(){
                             and dealine for it as well and updates it in realtime as well as adds the data into data base and helps to regain acess if we removed it.
                         </p>
                         <p> Programming language used <hr></hr>                    
-                        <span className="lang"><SiPython /> Python</span>
-                        <span className="lang"><SiFlask /> Flask</span>
-                        <span className="lang"><SiHtml5 /> HTML</span>
-                        <span className="lang"><SiCss3 /> CSS</span>
+                        <span className="lang"><SiPython className="lang-icon python" /> Python</span>
+                        <span className="lang"><SiFlask className="lang-icon flask" /> Flask</span>
+                        <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
+                        <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
@@ -37,10 +37,10 @@ function Portfolio(){
                             A website which uses APi to collect a data and display the real time information about a particular city at that particular time. It helps to know more about how API works in realtime and this project is indeed the one to know about it.
                         </p>
                         <p> Programming language used <hr></hr>                    
-                        <span className="lang"><SiPython /> Python</span>
-                        <span className="lang"><SiFlask /> Flask</span>
-                        <span className="lang"><SiHtml5 /> HTML</span>
-                        <span className="lang"><SiCss3 /> CSS</span>
+                        <span className="lang"><SiPython className="lang-icon python" /> Python</span>
+                        <span className="lang"><SiFlask className="lang-icon flask" /> Flask</span>
+                        <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
+                        <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
@@ -55,10 +55,10 @@ function Portfolio(){
                             and dealine for it as well and updates it in realtime as well as adds the data into data base and helps to regain acess if we removed it.
                         </p>
                         <p> Programming language used <hr></hr>                    
-                        <span className="lang"><SiPython /> Python</span>
-                        <span className="lang"><SiFlask /> Flask</span>
-                        <span className="lang"><SiHtml5 /> HTML</span>
-                        <span className="lang"><SiCss3 /> CSS</span>
+                        <span className="lang"><SiPython className="lang-icon python" /> Python</span>
+                        <span className="lang"><SiFlask className="lang-icon flask" /> Flask</span>
+                        <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
+                        <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
@@ -69,10 +69,10 @@ function Portfolio(){
                             A website which uses APi to collect a data and display the real time information about a particular city at that particular time. It helps to know more about how API works in realtime and this project is indeed the one to know about it.
                         </p>
                         <p> Programming language used <hr></hr>                    
-                        <span className="lang"><SiPython /> Python</span>
-                        <span className="lang"><SiFlask /> Flask</span>
-                        <span className="lang"><SiHtml5 /> HTML</span>
-                        <span className="lang"><SiCss3 /> CSS</span>
+                        <span className="lang"><SiPython className="lang-icon python" /> Python</span>
+                        <span className="lang"><SiFlask className="lang-icon flask" /> Flask</span>
+                        <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
+                        <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
                         <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
