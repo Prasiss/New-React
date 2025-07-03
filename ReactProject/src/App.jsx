@@ -3,6 +3,7 @@ import Footer from './Footer.jsx';
 import Portfolio from './Portfolio.jsx';
 import ProfilePic from './ProfilePic.jsx';
 import Skills from './Skills.jsx';
+import Workexperience from './Workexperience.jsx';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
         <ProfilePic/>
         <Portfolio/>
         <Skills />
+        
         <Footer/> 
         
     </main>
