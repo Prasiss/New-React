@@ -69,6 +69,11 @@ ul{
   flex:20%;
 
 }
+.web-protfolio h1{
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
 .titleName{
   text-align: center;
   font-size: 2rem;
@@ -122,7 +127,7 @@ ul{
   vertical-align: middle;
 }
 
-.lang-icon.python { color: #3776AB; }
+.lang-icon.python { color: #b9bc0c; }
 .lang-icon.flask { color: #800606; }
 .lang-icon.html { color: #e44d26; }
 .lang-icon.css { color: #1572b6; }
