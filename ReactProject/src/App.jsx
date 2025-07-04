@@ -4,9 +4,9 @@ import Portfolio from './Portfolio.jsx';
 import ProfilePic from './ProfilePic.jsx';
 import Skills from './Skills.jsx';
 import Workexperience from './Workexperience.jsx';
+import Contactme from './Contactme.jsx';
 
 function App() {
-  
   return (
     
     <main>
@@ -14,7 +14,8 @@ function App() {
         <ProfilePic/>
         <Portfolio/>
         <Skills />
-        
+
+        <Contactme />
         <Footer/> 
         
     </main>

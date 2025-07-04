@@ -157,16 +157,22 @@ ul{
   flex-direction: column;
 }
 
-.contact-me label {
-  margin-top: 10px;
-  font-weight: bold;
+.Contact-Me div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
 }
 
+.Contact-Me label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
 .contact-me input,
 .contact-me textarea {
   padding: 8px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: none;
   border-radius: 4px;
 }
 
@@ -174,24 +180,44 @@ ul{
   height: 80px;
 }
 
-.contact-me button {
-  
-  background-color: #007bff;
-  color: white;
+.Contact-Me button {
+  background: linear-gradient(90deg, #1572b6 0%, #43cea2 100%);
+  color: #fff;
   border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   cursor: pointer;
-  border-radius: 4px;
-  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(21, 114, 182, 0.12);
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  margin-top: 12px;
 }
 
-.contact-me button:hover {
-  background-color: #011123;
+.Contact-Me button:hover {
+  background: linear-gradient(90deg, #43cea2 0%, #1572b6 100%);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 18px rgba(21, 114, 182, 0.18);
 }
-
 .footer{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 24px 0 12px 0;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; 
+  margin-bottom: 10px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .github-icon,.gmail-icon, .linkedin-icon, .instagram-icon{
