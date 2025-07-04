@@ -4,9 +4,9 @@ function Workexperience() {
       <h2>Work Experience</h2>
       <ul>
         <li>
-          <h3>Software Engineer at XYZ Corp</h3>
-          <p>June 2020 - Present</p>
-          <p>Developed and maintained web applications using React and Node.js.</p>
+          <h3>Intern</h3>
+          <p>June 2025 - Present</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nostrum ullam cum magni fuga maiores! Animi dolore ipsam incidunt optio blanditiis in nostrum dignissimos, culpa excepturi! Officia ratione aliquid velit?</p>
         </li>
       </ul>
     </div>
