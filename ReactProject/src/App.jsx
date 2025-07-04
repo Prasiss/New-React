@@ -14,8 +14,6 @@ function App() {
         <ProfilePic/>
         <Portfolio/>
         <Skills />
-
-        <Contactme />
         <Footer/> 
         
     </main>

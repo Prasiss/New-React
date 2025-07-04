@@ -1,6 +1,5 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SiGithub,SiInstagram,SiGmail,SiLinkedin } from 'react-icons/si';
+import { SiGithub,SiInstagram,SiGmail,SiLinkedin,SiFacebook } from 'react-icons/si';
 
 function Footer(){
       
@@ -16,6 +15,8 @@ function Footer(){
                 <a href ="https://mail.google.com/mail" target="_blank"> <SiGmail className="gmail-icon" />
                 </a>
                 <a href ="https://www.instagram.com/assassin_e96/"  target="_blank"><SiInstagram className="instagram-icon" />
+                </a>
+                <a href ="https://www.facebook.com/Prasim.Basnet"  target="_blank"><SiFacebook className="facebook-icon" />
                 </a>
             </div>
             <footer>
