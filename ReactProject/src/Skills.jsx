@@ -18,7 +18,7 @@ function Skills() {
     { name: "JavaScript", level: "Basics", icon: <SiJavascript className="skill-icon js" /> },
     { name: "React", level: "Basics", icon: <SiReact className="skill-icon react" /> },
     { name: "CSS", level: "Intermediate", icon: <SiCss3 className="skill-icon css" /> },
-    { name: "Node.js", level: "Basics", icon: <SiNodedotjs className="skill-icon node" /> },
+    // { name: "Node.js", level: "Basics", icon: <SiNodedotjs className="skill-icon node" /> },
   ];
 
   return (

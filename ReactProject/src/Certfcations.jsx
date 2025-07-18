@@ -4,8 +4,8 @@ function Certifications() {
       <h2>Certifications</h2>
       <ul>
         <li>Cs50x Introduction to Computer Science</li>
-        <li>Full Stack Web Development with React</li>
-        <li>Full Stack Developer Bootcamp</li>
+        <li className="certificate-link">Click me to view The certficate</li>
+        
       </ul>
     </div>
   );
