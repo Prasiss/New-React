@@ -1,12 +1,11 @@
 function Certifications() {
   return (
     <div className="certifications">
-      <h2>Certifications</h2>
-      <ul>
+      <h2 className="titleName">Certifications</h2>
+      <ul className="certification-list">
         <li>Cs50x Introduction to Computer Science</li>
-        <li className="certificate-link">Click me to view The certficate</li>
-        
       </ul>
+      <a href="">Click me to view The certficate</a>
     </div>
   );
 }export default Certifications;
