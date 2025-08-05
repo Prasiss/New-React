@@ -32,5 +32,5 @@ A modern React + Vite personal portfolio built using **React.js**. This website 
 
 > Here's a current preview of the homepage (still in development):
 
-![Portfolio Preview](src/assets/PortfolioPreview.png)
+![Portfolio Preview](PersonalPortfolio/src/assets/PortfolioPreview.png)
 
