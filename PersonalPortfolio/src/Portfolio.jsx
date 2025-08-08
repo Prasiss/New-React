@@ -42,25 +42,23 @@ function Portfolio(){
                         <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
                         <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
-                        <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
+                        <a href="https://github.com/Prasiss/weather-app"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
                     
                 </div>
                 <div className="Portfolio">
                     <div className="web-protfolio">
-                        <h1 className="title">Task Manager</h1>
+                        <h1 className="title">Home Rental Project</h1>
                         <img src={weather} alt="Task-Manager Preview"></img>
                         <p className="Description">
-                            It is a full stack project with flask and also my Cs50x final Project. Its a websites which helps us to add different task
-                            and dealine for it as well and updates it in realtime as well as adds the data into data base and helps to regain acess if we removed it.
+                            It is a full stack project.
                         </p>
                         <p> Programming language used <hr></hr>                    
-                        <span className="lang"><SiPython className="lang-icon python" /> Python</span>
-                        <span className="lang"><SiFlask className="lang-icon flask" /> Flask</span>
+                        <span className="lang"><SiPython className="lang-icon java" /> Java</span>
                         <span className="lang"><SiHtml5 className="lang-icon html" /> HTML</span>
                         <span className="lang"><SiCss3 className="lang-icon css" /> CSS</span>
                         </p>
-                        <a href="https://github.com/"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
+                        <a href="https://github.com/Prasiss/HomeRentals"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon><span>View On github</span> </a>
                     </div>
                     <div className="web-protfolio">
                         <h1 className="title">Weather App</h1>
