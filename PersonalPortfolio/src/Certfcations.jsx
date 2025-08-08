@@ -5,6 +5,8 @@ function Certifications() {
       <ul className="certification-list">
         <li>Cs50x Introduction to Computer Science</li>
         <li>GeekForGeeks Full Stack Developer BootCamp </li>
+        <li>React Essential Trainings by Linkined Learning</li>
+
       </ul>
       
       {/* adding onedrive link to view all my certifications. */}
